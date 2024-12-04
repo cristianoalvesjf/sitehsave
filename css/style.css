@@ -350,8 +350,8 @@ button {
     padding-bottom: 100px;
 }
 
-.menu_main {
-    width: 70%;
+.menu_principal {
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     background-color: #252525;
@@ -360,32 +360,32 @@ button {
     padding: 20px 20px;
 }
 
-.custome_menu {
-    width: 78%;
+.menu_personalizado {
+    width: 100%;
     float: left;
 }
 
-.custome_menu ul {
+.menu_personalizado ul {
     padding: 0px;
     margin: 0px;
 }
 
-.custome_menu li {
+.menu_personalizado li {
     float: left;
-    font-size: 18px;
+    font-size: 5;
     color: #ffffff;
     padding: 0px 10px;
     text-transform: uppercase;
 }
 
-.custome_menu li a {
+.menu_personalizado li a {
     color: #ffffff;
 }
 
-.custome_menu li a:hover {
+.menu_personalizado li a:hover {
     color: #154503;
 }
-.custome_menu li.active a{
+.menu_personalizado li.active a{
     color: #154503;
 }
 
