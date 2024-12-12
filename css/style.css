@@ -649,7 +649,6 @@ input.form-control::placeholder {
     color: #fefbfb;
     background-color: #7d2f37;
     text-align: center;
-    padding: 10px 0px;
     font-weight: bold;
     text-transform: uppercase;
 }
