@@ -150,6 +150,70 @@ a {
     outline: none !important;
 }
 
+
+        ul,
+		.pop {
+            list-style-type: none;
+            padding: 10;
+
+ }
+
+
+
+       li,
+		.pop{
+            position: relative; /* Necessário para posicionar o balão */
+            margin: 15px 0;
+        }
+
+
+        a:hover {
+            background-color: #666;
+        }
+
+        /* Estilo do balão pop-up (subcategoria) */
+        .popup {
+            display: none;
+            position: absolute;
+            left: 17%; /* Faz com que o balão apareça ao lado direito do item */
+            top: 0;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            width: auto;
+            height: auto;
+
+
+ }
+
+        /* Estilo para mostrar o balão quando o mouse estiver sobre o item */
+        li:hover .popup {
+            display: block;
+        }
+
+        .popup a {
+            background-color: #fff;
+            color: #333;
+ 
+
+
+			border: 1px solid #ddd;
+        }
+
+        .popup a:hover {
+            background-color: #ddd;
+        }
+
+
+
+
+
+
+
+
+
+
+
 a,
 .btn {
     text-decoration: none !important;
@@ -611,10 +675,17 @@ input.form-control::placeholder {
 .produtos_box {
     width: 100%;
     height: auto;
-    border: 1px solid #ffffff;
+    border: 1px 
     margin-top: 20px;
 }
-
+.produtos_img {
+    width: 100%;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    min-height: 138px;
+    align-items: center;
+    justify-content: center;
+}
 
 .breakfast_img {
     width: 100%;
@@ -638,7 +709,6 @@ input.form-control::placeholder {
 .seemore_bt {
     width: 150px;
     margin: 0 auto;
-    text-align: center;
     padding-top: 10px;
 }
 
